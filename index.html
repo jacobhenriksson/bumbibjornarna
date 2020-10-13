@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head >
+    <meta charset="utf-8"/>
+     <title> Bumbi björnarna </title>
+     <link rel="stylesheet" type="text/css" href="css/style.css">
+     <link href="https://fonts.googleapis.com/css2?family=Epilogue&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body class="background">
+  <ul id="toppen" class="ul">
+  <li class="li"> <a href="handling.html" >Innehåll</a></li>
+  <li class="li"> <a href="https://www.youtube.com/watch/dQw4w9WgXcQ" target="_blank"  > wikipedia </a></li>
+  <li class="li"> <a href="index.html"  > startsidan </a></li>
+  <li class="li"> <a href="#botten" > botten </a></li>
+</ul>
+<!-- en komentar mellan menyn och resten av sidan -->
+<h1 class="title"> Bumbi björnarna</h1>
+<p class="text"> Tryck på bilden för en överaskning </p>
+<script>
+var audio = new Audio("img/music.mp3 ");
+audio.oncanplaythrough = function ( ) { }
+audio.onended = function ( ) { }
+</script> <input type="image" src="img/bumbjornarna.jpg" onclick="audio.play ( )" alt="bumbibjörnarna" class="forstabild">
+<a href="#toppen"><br> Ta mig till toppen</a>
+ </body>
+</html>
