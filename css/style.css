@@ -1,9 +1,10 @@
-.lista{
-font-size: 20px;
-text-align: center;
-font-family: 'Sansita Swashed', cursive;
+.lista {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Sansita Swashed', cursive;
 }
-.ul{
+
+.ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -12,11 +13,14 @@ font-family: 'Sansita Swashed', cursive;
   margin: auto;
   text-align: center;
 }
-.li{float: left;
-display: inline-block;
+
+.li {
+  float: left;
+  display: inline-block;
 }
+
 /* oj titta här är det ju en kommentar inne i css koden */
-.li a{
+.li a {
   display: block;
   color: rgb(255, 255, 255);
   text-align: center;
@@ -25,42 +29,50 @@ display: inline-block;
   border-right: solid black;
   Border: solid black;
 }
-.li a:hover{
+
+.li a:hover {
   background-color: rgb(169, 171, 170);
 }
 
 .forstabild {
   display: block;
   margin: auto;
-width: 70%;
-border: solid 5px black;
+  width: 70%;
+  border: solid 5px black;
 }
-.title{
+
+.title {
   text-align: center;
   font-style: italic;
   font-size: 90px;
 }
-.undertitel{
+
+.undertitel {
   text-align: center;
   font-style: italic;
   font-size: 45px;
 }
-.underundertitel{
+
+.underundertitel {
   text-align: center;
   font-style: italic;
   font-size: 40px;
 }
-.background{
+
+.background {
   background-color: rgb(23, 167, 33);
 }
-.musik{
-  margin:auto;
+
+.musik {
+  margin: auto;
 }
-.text{
+
+.text {
   font-size: 18px;
   font-family: 'Sansita Swashed', cursive;
   text-align: center;
 }
-.bilder{
-float: right;
+
+.bilder {
+  float: right;
 }
